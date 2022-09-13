@@ -1,0 +1,53 @@
+.container {
+	max-width: 36rem;
+	padding: 0 1rem;
+	margin: 3rem auto 6rem;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.backToHome {
+	margin: 3rem 0 0;
+}
+
+.navbar {
+	background: rgba(0, 0, 0, 0.75);
+	width: 100%;
+	overflow-x: scroll;
+	display: flex;
+	gap: 2rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+}
+
+@media (min-width: 570px) {
+	.navbar::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+.navbar a {
+	/* margin-right: 2rem; */
+	color: white;
+}
+
+.navbar::-webkit-scrollbar {
+	height: 7px;
+}
+
+.navbar::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+.navbar::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+.navbar::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
